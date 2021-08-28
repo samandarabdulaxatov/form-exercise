@@ -1,0 +1,76 @@
+.input {
+  width: 330px;
+}
+
+.form-select {
+  width: 330px;
+}
+
+.avengers {
+  width: 330px;
+}
+
+.search-input {
+  width: 330px;
+}
+
+.avengers {
+  border: 1px solid rgb(190, 190, 190);
+  transition: border 0.5s ease;
+}
+
+.avengers:hover {
+  border: 1px solid rgb(0, 17, 255);
+}
+
+.left-input {
+  background-color: skyblue;
+}
+
+.years::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/images.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.level::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/download.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.card {
+  width: 100%;
+  max-width: 302px;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.search-input {
+  width: 100%;
+  max-width: 650px;
+}
+.group-btn {
+  width: 100%;
+  max-width: 50px;
+}
+
+.group-btn:checked {
+  background-color: white;
+  color: blue;
+}
+
+.card-btn {
+  font-size: 8px;
+}
